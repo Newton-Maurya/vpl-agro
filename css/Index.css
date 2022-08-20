@@ -36,9 +36,6 @@ div {
 
 }
 
-.hero-content {
-    padding: 80px;
-}
 
 .bg-opacity {
     position: absolute;
@@ -139,9 +136,10 @@ div {
         line-height: 52px;
     }
     .hero-content{
-        width: auto;
+        width: 240px;
+        margin-left: 40px;
     }
     .hero-container{
-        height: 40vh;
+        height: 50vh;
     }
 }
