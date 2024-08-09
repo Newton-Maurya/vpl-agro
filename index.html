@@ -6,7 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Stylesheet -->
-        <link rel="stylesheet" href="css/Index.css">
+        <link rel="stylesheet" href="/css/index.css?v=1.0">
+        <!-- Media quary -->
+        <link rel="stylesheet" href="/css/media.css?v=1.0">
         <!-- Font-Awesome -->
         <script src="https://kit.fontawesome.com/62e76a679b.js" crossorigin="anonymous"></script>
         <title>VPL Agro</title>
@@ -20,33 +22,32 @@
                     <div class="logo">
                         <img class="logo-img" src="./assets/logo.png" alt="">
                     </div>
-                    <nav class="navbar">
+                    <nav class="navbar" id="navbar">
                         <div>
                             <ul class="btn-ul">
                                 <li class="btn-li">
-                                    <a href="/" class="btn">
-                                        Home
-                                    </a>
+                                    <a href="/" class="btn">Home</a>
                                 </li>
                                 <li class="btn-li">
-                                    <a href="/" class="btn">
-                                        Our Product
-                                    </a>
+                                    <a href="/" class="btn">Our Product</a>
                                 </li>
                                 <li class="btn-li">
-                                    <a href="/" class="btn">
-                                        About Us
-                                    </a>
+                                    <a href="/" class="btn">About Us</a>
                                 </li>
                                 <li class="btn-li">
-                                    <a href="/" class="btn">
-                                        Contact Us
-                                    </a>
+                                    <a href="/" class="btn">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
-
+                    <div class="menu-toggle" id="menu-toggle">
+                        <span class="burger-menu"></span>
+                        <span class="burger-menu"></span>
+                        <span class="burger-menu"></span>
+                    </div>
+                    <div class="close" id="close">
+                        <i class="fa-solid fa-xmark close-sign"></i>
+                    </div>
                 </div>
             </div>
 
@@ -413,7 +414,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="Copyright">
+                <div class="copyright">
                     <p>© Copyright VPL AGRO LTD. 2024</p>
                 </div>
             </div>

@@ -71,3 +71,24 @@ feature31.addEventListener('click', () => {
     feature21.style.borderLeftColor = "white";
     feature31.style.borderLeftColor = "#1E2203";
 });
+
+// for burger-menu
+
+const menuToggle = document.getElementById("menu-toggle");
+const navbarDrop = document.getElementById("navbar");
+const closeMenu = document.getElementById('close')
+
+menuToggle.addEventListener('click', show);
+closeMenu.addEventListener('click', close);
+
+function show() {
+    navbarDrop.style.display = "flex";
+    menuToggle.style.display = "none";
+    closeMenu.style.display = "flex";
+};
+
+function close() {
+    navbarDrop.style.display = "none";
+    menuToggle.style.display = "flex";
+    closeMenu.style.display = "none";
+}
